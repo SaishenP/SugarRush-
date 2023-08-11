@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Login</title>
+    <link rel="stylesheet" href="style1.css" />
+    <script
+      src="https://kit.fontawesome.com/dd8ca4d5e5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="header">
+        <div class="personal_logo">Sugar Rush</div>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa fa-shopping-basket"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+    
+    <div class="container">
+      <div class="form-box">
+        <h1>
+            Login
+        </h1>
+        <!-- social icons -->
+        <div class="social-icons">
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-facebook-official"></i>
+        </div>
+        <!-- Creating a form -->
+        <form  action="Login.php" id="login" class="input-group" method="POST" onsubmit = "return(validate());">
+          <div class="inputbox">
+            <i class="fa fa-envelope-o"></i>
+            <input type="email" id="Email"required />
+            <!-- creating email input -->
+            <label for="email">Email</label>
+          </div>
+          <div class="inputbox">
+            <i class="fa fa-lock"></i>
+            <input type="password" id="Upassword" required />
+            <!-- Create Password -->
+            <label for="password">Password</label>
+          </div>
+          <div class="Remember">
+            <label for=""><input type="checkbox" />Remember Me </label>
+          </div>
+          <!-- login button -->
+          <input  class="End" type = "submit" name = "submit" value = "Login"/>
+          <div class="forget">
+            <a href="#"> I Forgot My Password </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

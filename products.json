@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "Image": "IMG/Prime-Blueberry.webp",
+        "Name": "Prime Blueberry",
+        "Price": "40",
+        "Inventory": 4,
+        "ProductCode": "K203"
+    },
+    {
+        "id": 2,
+        "Image": "IMG/Prime-Ice-Pop.webp",
+        "Name": "Prime Ice-Pop",
+        "Price": "40",
+        "Inventory": 14,
+        "ProductCode": "K433"
+    }
+]
